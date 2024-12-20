@@ -1,4 +1,4 @@
-/*public class MatrixMultiplication {
+public class MatrixMultiplication {
     public static void main(String[] args) {
         int[][] A = {
             {1, 2, 3},
@@ -18,7 +18,7 @@
         int[][] C = new int[rowsA][colsB];
 
         // Matrix multiplication
-        -------- Work on this --------
+        //-------- Work on this --------
 
         // Print result matrix
         System.out.println("Result Matrix:");
@@ -29,4 +29,4 @@
             System.out.println();
         }
     }
-}*/
+}

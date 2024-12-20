@@ -1,5 +1,5 @@
 
-/*public class MatrixElementWise {
+public class MatrixElementWise {
     public static void main(String[] args) {
         int[][] A = {
             {1, 2, 3},
@@ -16,9 +16,9 @@
         int[][] C = new int[rows][cols];
 
         // Element-wise addition
-        -------- Work on this --------
+        //-------- Work on this --------
 
         // Print result matrix
-        -------- Work on this --------
+        //-------- Work on this --------
     }
-}*/
+}
