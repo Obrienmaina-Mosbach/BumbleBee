@@ -18,7 +18,7 @@
         int[][] C = new int[rowsA][colsB];
 
         // Matrix multiplication
-        TODO
+        -------- Work on this --------
 
         // Print result matrix
         System.out.println("Result Matrix:");
