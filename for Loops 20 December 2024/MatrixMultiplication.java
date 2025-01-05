@@ -18,6 +18,14 @@ public class MatrixMultiplication {
         int[][] C = new int[rowsA][colsB];
 
         // Matrix multiplication
+        for (int i = 0; i < rowsA; i++) {
+            for (int j = 0; j < colsB; j++) {
+                for (int k = 0; k < colsA; k++) {
+                    C[i][j] += A[i][k] * B[k][j];
+                }
+            }
+        }
+    
         //-------- Work on this --------
 
         // Print result matrix

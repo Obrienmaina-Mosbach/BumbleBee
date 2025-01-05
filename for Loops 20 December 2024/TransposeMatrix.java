@@ -10,6 +10,7 @@ public class TransposeMatrix {
         int[][] T = new int[cols][rows];
 
         // Transpose logic
+        
         //-------- Work on this --------
 
         // Print transposed matrix
