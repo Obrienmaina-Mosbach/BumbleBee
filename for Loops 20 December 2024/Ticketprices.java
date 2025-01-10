@@ -3,13 +3,19 @@ import java.util.Scanner;
 
 public class Ticketprices {
     public static void main(String[] args) {
-        int Price = 100;
-        Scanner scnr = new Scanner(System.in);
+
+        System.out.println("Welcome to Gizmo discounts. To see if you qualify;");
+        Scanner scnr = new Scanner(System.in);        
         System.out.println("What is your age? ");
         int age = Integer.parseInt(scnr.nextLine());
+        System.out.println("What is your age? ");
+        int Price = Integer.parseInt(scnr.nextLine());;
     
         if (age == 0){
             System.out.println("Enter a valid age");
+        }
+        else if(age <= 5){
+            System.out.println("You get a 40% discount: " + "The new product price is Euro " + Price * 0.6);
         }
         else if(age <= 10){
             System.out.println("You get a 30% discount: " + "The new product price is Euro " + Price * 0.7);
