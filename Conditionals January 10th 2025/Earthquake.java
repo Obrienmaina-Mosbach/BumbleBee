@@ -14,10 +14,10 @@ public class Earthquake {
         
         int category =  (magnitude < 2.0) ? 1:
                         (magnitude < 4.0) ? 2:
-                        (magnitude < 4.0) ? 3:
-                        (magnitude < 4.0) ? 4:
-                        (magnitude < 4.0) ? 5:
-                        (magnitude < 4.0) ? 6: 7;
+                        (magnitude < 5.0) ? 3:
+                        (magnitude < 6.0) ? 4:
+                        (magnitude < 7.0) ? 5:
+                        (magnitude < 8.0) ? 6: 7;
     
         switch (category){
             case 1:
@@ -42,7 +42,7 @@ public class Earthquake {
                 System.out.println(" Great: \n Seek help from fire department: Call 911");
                 break;
         }
-        
+    
     }
     
 }
