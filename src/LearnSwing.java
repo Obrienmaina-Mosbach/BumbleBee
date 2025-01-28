@@ -18,7 +18,7 @@ public class LearnSwing {
 
     public static void main(String[] args) {
         // Schedule a job for the event-dispatching thread
-        SwingUtilities.invokeLater(() -> createAndShowGUI());
+        SwingUtilities.invokeLater(LearnSwing::createAndShowGUI);
     }
 
 }
