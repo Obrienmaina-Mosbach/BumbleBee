@@ -8,7 +8,7 @@ public class LearnSwing {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Add the label
-        JLabel label = new JLabel("This is pretty cool! You know");
+        JLabel label = new JLabel("This is pretty cool!");
         frame.getContentPane().add(label);
 
         // Set the frame size and make it visible
