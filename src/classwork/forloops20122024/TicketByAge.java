@@ -1,3 +1,5 @@
+package classwork.forloops20122024;
+
 import java.util.Scanner;
 
 public class TicketByAge {

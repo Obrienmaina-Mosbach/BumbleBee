@@ -1,3 +1,5 @@
+package classwork.forloops20122024;
+
 public class DrawImage {
     public static void main(String[] args) {
         int rows = 5; // Number of rows for the triangle

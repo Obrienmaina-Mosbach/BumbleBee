@@ -1,3 +1,5 @@
+package classwork.forloops20122024;
+
 public class MatrixMultiplication {
     public static void main(String[] args) {
         int[][] A = {

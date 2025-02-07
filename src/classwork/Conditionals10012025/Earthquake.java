@@ -1,9 +1,11 @@
+package classwork.Conditionals10012025;
+
 import java.util.Scanner;
 
 public class Earthquake {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);        
-        System.out.println("Enter the Magnitude of the Earthquake? ");
+        System.out.println("Enter the Magnitude of the classwork.Conditionals01102025.Earthquake? ");
         double magnitude = scnr.nextDouble(); 
 
 
